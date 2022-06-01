@@ -31,6 +31,9 @@ public class Render {
 		
 		board(gameBoard);
 		
+		System.out.println(" ");
+		System.out.println(" choose the symbol");
+		
 		
 		
 		
