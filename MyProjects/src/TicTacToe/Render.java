@@ -104,18 +104,18 @@ public class Render {
 				gameBoard[numInput - 1] = turn;
 				
 				if (turn.equals("X")) {
-                    turn = "O";
-                }
-                else {
-                    turn = "X";
-                }
+                    			turn = "O";
+                		}
+                		else {
+                   		 	turn = "X";
+                		}
   
-                board();
-                winner = checkWinner();
+               			board();
+                		winner = checkWinner();
 			}
 			else {
-                System.out.println("Slot already taken; re-enter slot number:");
-            }
+                		System.out.println("Slot already taken; re-enter slot number:");
+            		}
 		}
 		
 
